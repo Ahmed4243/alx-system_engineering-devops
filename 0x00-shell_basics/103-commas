@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1pAFa | sort -k1.1n -k1 | awk '{printf "%s%s",sep,$0; sep=", "} END{print ""}'
+ls -m
