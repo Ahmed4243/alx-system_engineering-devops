@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -mvp --group-directories-first
+ls -1pAFa | sort -k1.1n -k1 | awk '{printf "%s%s",sep,$0; sep=", "} END{print ""}'
