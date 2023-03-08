@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -mvp
+ls -mvp --group-directories-first
